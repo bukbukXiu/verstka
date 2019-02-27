@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+    .container {
+        width: 976px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col-1, .col-2, .col-3, .col-4 {
+        padding-left: 8px;
+        padding-right: 8px;
+        box-sizing: border-box;
+    }
+
+    
+    .col-1 {
+        flex-basis: 21%;
+    }
+
+    .col-4 {
+        flex-basis: 33.3333%;
+    }
+
+    .card {
+        background-color: coral;
+        border: 1px solid red;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+</style>
+
+
+
+
+<header>
+    <link rel="stylesheet" href="normalize.css" />
+</header>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <div class="card">
+                    <p>Homes</p>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <div class="card">
+                    <p>Experiences</p>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="card">
+                    <p>Restaurants</p>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card">
+                    <p>Homes2</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

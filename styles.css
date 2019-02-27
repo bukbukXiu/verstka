@@ -1,0 +1,15 @@
+body {
+    font-size: 22px;
+    line-height: 34px;
+}
+
+header, nav {
+    background-color: #fd739c;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
